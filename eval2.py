@@ -1,0 +1,5 @@
+x = input ('Podaj działanie ')
+z = input ('Podaj dowolną liczbę od 1 do 100')
+z = int (z)
+print (eval (x), '<', z)
+print (float (eval (x)) < z)
